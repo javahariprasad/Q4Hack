@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "eslint . --ext .js --config .eslintrc",
     "test": "mocha",
-    "start": "set NODE_ENV=production && tagove start"
+    "start": "set NODE_ENV=production && npm start"
   },
   "devDependencies": {
     "chai": "^4.3.4",
