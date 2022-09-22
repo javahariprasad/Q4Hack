@@ -28,7 +28,7 @@
 
     }
 
-    
+    UnitOfWorkBuilder uow = dataApi.newUnitOfWorkBuilder();
 
     // Define a record using the RecordForCreate type and providing the Developer Name
     const account = uow.registerUpdate(
